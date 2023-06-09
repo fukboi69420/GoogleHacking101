@@ -1,0 +1,25 @@
+Google Search Basics
+Google being a full-text search engine, it indexes entire web pages instead of just titles and
+descriptions. This allows comprehensive searches based upon key (query) words. Straight from the Google
+search page.
+Google's Boolean default is AND; that means if you enter query words without modifiers, Google
+will search for all of them.
+If you search for:
+snowblower Honda "Green Bay"
+Google will search for all the words.
+If you want to specify that either word is acceptable, you put
+an OR between each item:
+snowblower OR snowmobile OR "Green Bay"
+If you want to definitely have one term and have one of two or more other terms, you group them
+with parentheses, like this:
+snowblower (snowmobile OR "Green Bay")
+This query searches for the word "snowmobile" or phrase "Green Bay" along with the word
+"snowblower."
+A stand-in for OR borrowed from the computer programming realm is the | (pipe)
+character, as in:
+snowblower (snowmobile | "Green Bay")
+If you want to specify that a query item must not appear in your results, use a - (minus sign or
+dash).
+snowblower snowmobile -"Green Bay"
+This will search for pages that contain both the words "snowblower" and "snowmobile," but not
+the phrase "Green Bay."
