@@ -1,0 +1,29 @@
+Google Search Form
+<!-- Search Google -->
+<form method="get" action="http://www.google.com/search">
+<input type="text" name="q" size=31 maxlength=255 value="">
+<input type="submit" name="sa" value="Search Google">
+</form>
+<!-- Search Google -->
+Save it as search.htm and double click on it.
+A more specific form:
+<!-- Custom Google Search Form-->
+<form method="get" action="http://www.google.com/search">
+<input type="text" name="q" size=31 maxlength=255 value="">
+<br />
+Search for file type:
+<select name="as_filetype">
+<option value="ppt">PowerPoint</option>
+<option value="xls">Excel</option>
+<option value="doc">Word</option>
+</select>
+<br />
+Search site:
+<select name="as_sitesearch"></option>
+<option value="tompeters.com">TomPeters.com</option>
+<option value="state.ca.us">State of California</option>
+<option value="loc.gov">The Library of Congress</option>
+</select>
+<input type="hidden" name="num" value="100">
+</form>
+<!-- Custom Google Search Form-->
