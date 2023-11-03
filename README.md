@@ -80,9 +80,14 @@ these dorks can help you find interesting or amusing conten on the web
 ## Conclusion
 Google Dorking is a powerful and versatile technique that can help you find information and content on the web. However, it can also be used for malicious purposes, such as hacking or stealing data. Therefore, you should always be careful and ethical when using Google Dorking, and protect your own online resources from being exposed by Google Dorking. For more information and resources on Google Dorking, you can check out the following links:
 
-[The Ultimate Google Dorking Cheat Sheet - 2023]([url](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/))
-[Google dork cheatsheet · GitHub]([url](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06))
-[Google Dorks Cheat Sheet 2023: How to Hack Using Google - StationX]([url](https://www.stationx.net/google-dorks-cheat-sheet/))
-[Google Dorking Hacking and Defense Cheat Sheet - SANS Institute]([url](https://www.sans.org/posters/google-hacking-and-defense-cheat-sheet/))
-[Basic writing and formatting syntax - GitHub Docs]([url](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-[Quickstart for writing on GitHub - GitHub Docs]([url](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[The Ultimate Google Dorking Cheat Sheet - 2023](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/)
+
+[Google dork cheatsheet · GitHub](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
+
+[Google Dorks Cheat Sheet 2023: How to Hack Using Google - StationX](https://www.stationx.net/google-dorks-cheat-sheet/)
+
+[Google Dorking Hacking and Defense Cheat Sheet - SANS Institute](https://www.sans.org/posters/google-hacking-and-defense-cheat-sheet/)
+
+[Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Quickstart for writing on GitHub - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
