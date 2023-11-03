@@ -35,10 +35,49 @@ Here are some of the most common Google Dorking operators and their usage:
 
 ## Advanced Google Dorking Syntax
 You can also use some advanced syntax to modify or combine your Google Dorking Queries. Here are some exapmles:
+| Syntax | Description | Example |
+| ------------- | ------------- | ------------- |
+| " | Encloses a phrase or an exact match. | "Google Dorking" |
+| - | Excludes a keyword or a site | -site:github.com |
+| OR | Searches for either of the keywords. | filetype:pdf OR filetype:docx |
+| * | Replaces one or more characters or words/ | intitle:"Google *"
+| .. | Searches for a range of values. | numrange:1..100 |
+| AROUND(n) | Searches for two keywords that are within n words of each other | "Google" AROUND(5) "Dorking" |
+## Google Dorking Examples
+Here are some Google Dorking examples that you can try for yourself. Note that some of these queries may return no results or outdated results, depending on the availability and freshness of the data.
+
+## Security Related Dorks
+These dorks can help you find sensitive information or vulnerabilities on the web.
+| Query | Explanation |
+| ------------- | ------------- |
+| filetype:pdf password | Searches for PDF files containing the word "password". |
+| intitle:index.of password.txt | Searches for websties with "index.of" in the title and the word "password.txt" |
+| intext:"username" filtype:xlsx | Searches for excel files containing the word "username". |
+| inurl:admin login |  Searches for webpages with "admin" and "login" in the URL. |
+| intitle:"login page" "Username" "Password" | Searches for pages with "login" in the URL and the word "password" in the text. |
+| inurl:.php?id= | Searches for pages containing ".php?id=" in the URL. |
+| intitle:"SQL query failed" intext:"mysql" | Searches for pages with the title "SQL query failed" and the word "mysql" in the text. |
+| site:.edu filetype:pdf | Searches for PDF files on ".edu" |
+| intext:"Private Key" filetype:pem | Searches for files with "Private Key" in the text and the file type "pem". |
+| intitle:"Index of /" +passwd | Searches for websites with "Index of /" in the title and the word "passwd" |
+| intitle:"Index of /" +secret | Searches for websites with "Index of /" in the title and the word "secret" |
+| intext:"Confidential" filetype:ppt | Searches for PowerPoint files with the word "Confidential" in the text. |
+| intext:"Database Error" intitle:"Warning" | Searches for pages with the "Database Error" and the title "Warning".
+| intext:"PHP Script" "Debug" | Searches for pages with the text "PHP Script" and the word "Debug" |
+
+## Entertainment Related Dorks
+these dorks can help you find interesting or amusing conten on the web
+| Query | Explanation |
+------------- | ------------- |
+| intext:"index of /" Nina Simone | Searches for pages with the text "index of /" and the name "Nina Simone". |
+| intitle:"index.of" "parent directory" "size" last" modified" "description" I Put A Spell On You (mp4|mp3|avi|flac|aac|ape|ogg) -inurl: (jsp|php|html|aspx|htm|csf|shtml|lyrics-realm|mp3-collection) -site:.info | Searches for a file with the name "I Put A Spell On You" in various formats, exlcuding some common false positives. |
+| Bill Gates intitle:"index.of" "parent directory" "size" "last modified" "description" Microsoft (pdf|txt|epub|doc|docx) -inurl: (jsp|php|html|aspx|htm|cf|shtml|ebooks|ebook) -site:.info | Searches for files related to Bill Gates and Microsoft in various formats, excluding some common positives. |
+| parent directory DVDRip -xxx -html -htm -php -shtml -opendivx -md5 -md5sums | Searches for DVDRip files in aprent directories, excluding some common false positives. |
+| parent directory MP3 -xxx -html -htm -php -shtml -opendivx -md5 -md5sums | Searches for MP3 files in parent directories, excluding some common false positives. |
+| parent directory Name of Singer or album -xxx -html -htm -php -shtml -opendivx -md5 -md5sums | Searches for music files of a specific singer or album in parent directories, excluding some common false positives.
 
 
-
-Conclusion
+## Conclusion
 Google Dorking is a powerful and versatile technique that can help you find information and content on the web. However, it can also be used for malicious purposes, such as hacking or stealing data. Therefore, you should always be careful and ethical when using Google Dorking, and protect your own online resources from being exposed by Google Dorking. For more information and resources on Google Dorking, you can check out the following links:
 
 [The Ultimate Google Dorking Cheat Sheet - 2023]([url](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/))
